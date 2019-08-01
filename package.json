@@ -1,0 +1,19 @@
+{
+  "name": "example-netlify-lambda",
+  "version": "1.0.0",
+  "description": "Basic shell for handling Shopify Webhooks with Netlify Lambda",
+  "main": "index.js",
+  "author": "Fred Rainbird",
+  "license": "MIT",
+  "scripts": {
+    "build": "netlify-lambda build src/functions",
+    "server": "netlify-lambda serve src/functions"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "encoding": "^0.1.12",
+    "netlify-lambda": "^1.4.7",
+    "node-fetch": "^2.5.0",
+    "remove": "^0.1.5"
+  }
+}
